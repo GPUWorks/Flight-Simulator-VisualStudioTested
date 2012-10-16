@@ -1,9 +1,6 @@
 /*
- *  mp2.cpp
- *  
- *
+ *  flightsim.cpp
  *  Created by Ryan Barril on 10/3/12.
- *
  */
 
 
