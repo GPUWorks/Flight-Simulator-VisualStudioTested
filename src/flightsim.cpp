@@ -248,7 +248,7 @@ void display(void)
 	glClear (GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glColor3f (1.0, 1.0, 1.0);
 	
-	// Following five lines of code is my own. Moves the camera forward and updates its lookat vector.
+	// Following five lines of code are my own. Moves the camera forward and updates its lookat vector.
 	glLoadIdentity ();
 	cam.moveForward(speed);
 	gluLookAt (cam.eye[0], cam.eye[1], cam.eye[2],
