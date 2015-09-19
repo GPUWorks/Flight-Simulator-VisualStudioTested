@@ -3,10 +3,15 @@
  *  Created by Ryan Barril on 10/3/12.
  */
 
-
-#include <GLUT/glut.h>
+//#define _CRT_SECURE_NO_WARNINGS // Disble warnings for using standard read/write/open functions
+#include <Windows.h>
+#include <glut.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
+#include <Xinput.h>
+//#pragma comment(lib, "XInput.lib")
+
 #include <math.h>
 
 float sealevel;
